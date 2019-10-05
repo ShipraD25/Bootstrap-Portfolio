@@ -8,64 +8,69 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Bootstrap Portfolio</title>
 </head>
 
+<!--<body>-->
+
 <body>
-    <div class="container">
 
+    <div class="Header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Shipra Dyundi</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
+            <a class="navbar-brand" href="index.html">Shipra Dyundi</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </nav>
+
+    </div>
+
+
+    <div class="main-container">
+
         <div class="row">
             <div class="col-md-12">
-                <H4>About me</H4>
+                <h1>About me</h1>
             </div>
         </div>
 
 
+        <div class="media">
+            <img src="assets/images/cat.jpg" class="img-fluid" class="align-self-start mr-3" alt="nyan cat">
+            <div class="media-body">
+                <p class="text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla
+                    pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
-        <li class="nav-item">
-            <a class="contact.html" href="#">contact</a>
-        </li>
-    </div>
-    </ul>
-    </div>
-    <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>-->
+                <p class="text-left">Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
 
+                <p class="text-wrap">Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-
-    <div class="row">
-        <div class="col-md-4">
-            <img src="https://picsum.photos/id/237/200/300" alt="Shipra" class="img-thumbnail">
-        </div>
-        <div class="col-md-8">
-            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste inventore dolorem voluptate animi consequuntur, eligendi perferendis ea. Sint rem quae alias tempora. Odit nostrum perferendis cum, beatae repellat voluptates sed.</P>
+            </div>
         </div>
 
     </div>
+
+
+    <div id="footer">
+        <div class="container">
+            copywrite &copy
+        </div>
+    </div>
+
+
+    <!---- <nav class="navbar sticky-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">Sticky top</a>
+          </nav>-->
 
 
     <!-- Optional JavaScript -->
@@ -73,7 +78,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </div>
-</body>
 
-</html>
+</body>
